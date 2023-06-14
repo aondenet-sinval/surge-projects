@@ -6,8 +6,7 @@
   "scripts": {
     "watch": "webpack --watch",
     "start": "webpack serve --open",
-    "build": "webpack",
-    "pwa": "http-server docs"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Sinval Gomes dos Santos",
