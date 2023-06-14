@@ -1,5 +1,5 @@
 Como usar a hospedagem surge no plano grátis (free) e hospedar react? confira:  
-*Passo 1 crie sua conta se ainda não tiver uma (se tiver vá ao passo 2).*  
+**Passo 1 crie sua conta se ainda não tiver uma (se tiver vá ao passo 2).**  
 Para isso vai precisar do node (versão mais recente) localmente.  
 Você vai precisar instalar o surge com o comando abaixo:  
 sudo npm install -g surge  
@@ -8,7 +8,7 @@ Após a instalação crie sua conta rodando o comando:
 surge  
 Entre com seu email e senha.  
 Vá lá no seu email e faça a verificação.  
-*Passo 2 envie seu projeto.*  
+**Passo 2 envie seu projeto.**  
 No diretório de seu projeto rode o comando abaixo:  
 surge  
 O comando acima dá inicio ao seu projeto.  
