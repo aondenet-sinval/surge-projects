@@ -1,13 +1,16 @@
 {
   "name": "surge-projects",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aplicação react + webpack = surge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "pwa": "http-server docs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sinval Gomes dos Santos",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.21.0",
