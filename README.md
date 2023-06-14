@@ -20,4 +20,6 @@ Esse nome-do-site-surge.sh   é o nome que vc tem ao rodar o comando surge no di
 Mas se esqueceu por que foi tudo tão rápido é só rodar o comando abaixo e ver todos os sites que vc tem no surge.  
 surge list  
 E se vc quiser aprender (ou precisar) rode:  
-surge --help  que vai ver mais opções...
+surge --help  que vai ver mais opções...  
+O projeto webpack-react é um projeto desenvolvido com webpack + react.  
+link: https://faint-ducks.surge.sh/  
