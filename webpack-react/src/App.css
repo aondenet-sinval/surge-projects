@@ -1,0 +1,76 @@
+html{
+  background-color: #D38D5F;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #D38D5F;
+}
+.text-carousel{
+  display: block;
+  margin-top: 30px;
+  border: solid #241C1C 10px;
+  width: 280px;
+  height: 333px;
+}
+li{
+  list-style: none;
+  margin-left: 0px;
+}08
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.menu-bar{
+  background-color: #280B0B;
+}
+/* bloco sidebar page-main */
+.row-first{
+  margin-top: 40px;
+}
+/* personalizando sidebar */
+.sidebar{
+  border-radius: 10px;
+  background-color: #241C1C;
+  list-style: none;
+  margin: 3px;
+  padding: 3px;
+}
+.sidebar-right{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #241C1C;
+  list-style: none;
+  margin: 3px;
+  padding: 3px;
+}
+.margin-block{
+  margin: 5px;
+}
+/* personalizando Outlet */
+.page-main{
+  margin: 3px;
+  border-radius: 10px;
+  background-color: #502D16;
+}
+.page-footer{
+  margin: 3px;
+  border-radius: 10px;
+  background-color: #502D16;
+}
+/* personalizando footer */
+.footer{
+  background-color: #280B0B;
+}
+.mini{ min-width: 300px; }
+.desk{ min-width: 1000px; }
+/* whatsapp */
+.messageZap{
+  padding-bottom: 5px;
+}
