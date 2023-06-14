@@ -7,7 +7,7 @@ sudo npm install -g surge
 Após a instalação crie sua conta rodando o comando:  
 surge  
 Entre com seu email e senha.  
-Vá lá no seu email e faça a verificação.
+Vá lá no seu email e faça a verificação.  
 Passo 2 envie seu projeto.  
 No diretório de seu projeto rode o comando abaixo:  
 surge  
