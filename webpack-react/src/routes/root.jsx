@@ -4,6 +4,7 @@ import { Outlet, Link } from 'react-router-dom';
 import Navigation from '../components/Navigation'
 import SidebarLeft from '../components/SidebarLeft'
 import Sidebar from '../components/Sidebar'
+import { HelmetProvider } from 'react-helmet-async'
 // import Sistemas from '../components/Sistemas'
 import MyFooter from '../components/Footer'
 import { Helmet } from 'react-helmet'
@@ -12,10 +13,11 @@ import '../App.css'
 export default function Root() {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const mobile = 'row-first mini d-flex'
-  const desktop = ' row-first desk d-flex'
-const MyLazySistema = lazy(() => import('../components/Sistemas'));
-
+  const desktop = 'row-first desk d-flex'
+  const MyLazySistema = lazy(() => import('../components/Sistemas'));
+  const helmetContext = {};
   return (
+    <HelmetProvider context={helmetContext}>
     <Container  fluid>
       <Navigation />
       <Row className={isMobile ? mobile : desktop}>
@@ -38,5 +40,6 @@ const MyLazySistema = lazy(() => import('../components/Sistemas'));
       </Row>
       <MyFooter />
     </Container>
+    </HelmetProvider>
   );
 }

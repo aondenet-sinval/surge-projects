@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Button, Form, Link, Image } from 'react-bootstrap';
 import enviarContato from './libs/contato'
 import image from './img/WhatsAppButtonWhiteMedium.png'
-
+import SEO from './components/Seo'
 function FormContato() {
   const [contato, setContato ] = useState({ })
   const [url, setUrl ] = useState('')
@@ -29,6 +29,9 @@ function FormContato() {
   }
   return (
     <>
+    <SEO title='Contato portfólio Sinval Gomes'
+      name='description'
+      content='Entre em contato.' />
     <h2>Contato</h2>
     <Form>
     <Form.Group className="mb-3">

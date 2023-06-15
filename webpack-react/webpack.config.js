@@ -1,17 +1,22 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { SourceMapDevToolPlugin } = require("webpack");
+const CspHtmlWebpackPlugin = require('csp-html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
   mode: 'development',
+  devServer: {
+    port: 3030, // you can change the port
+  },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/, // checks for .js or .jsx files
         exclude: /(node_modules)/,
-        loader: "babel-loader",
-        options: { presets: ["@babel/env"] },
+        use: {
+          loader: 'babel-loader',
+        }
       },
       {
         test: /\.css$/, //checks for .css files

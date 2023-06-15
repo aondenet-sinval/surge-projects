@@ -12,7 +12,7 @@ import ErrorPage from "./ErrorPage";
 import Home from './Home'
 import About from './About'
 import App from './App'
-import FormContato from './FormZap'
+import FormContato from './FormContato'
 const MyLazy = lazy(() => import('./routes/root'));
 const router = createHashRouter([
   {
