@@ -6,7 +6,7 @@ const About = () => {
     <SEO title='Sobre - Sinval Gomes'
       name='description'
       content='+ sobre mim.' />
-      <h1>About</h1>
+      <h1>Sobre</h1>
       <p>Bem-vindo à página About</p>
     </div>
   );

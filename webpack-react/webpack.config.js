@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { SourceMapDevToolPlugin } = require("webpack");
-const CspHtmlWebpackPlugin = require('csp-html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
